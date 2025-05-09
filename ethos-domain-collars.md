@@ -18,7 +18,7 @@ We define three layers of contextual hierarchy: planets, moons, and galaxies. In
 
 This is analogous to the hierarchical DNS: the global DNS root delegates to top-level domains, which then delegate to subdomains. Similarly, IPFS uses a content-addressed global namespace linking all hosts. Our planetary system layers context on top of such naming: each moon can define its own metadata schema, semantic ontology, and access policy, yet still inherit context from its parent planet.
 
-![A stylized network graph. Large nodes represent “planets” (broad domains), smaller orbiting nodes represent “moons” (contextual sub-domains), and the overall structure forms a “galaxy” of interconnected domains. This illustrates how specialized contexts (moons) attach to broader domains (planets) within a network (galaxy).](https://github.com/50gramx/whitepapers/blob/main/assets/images/domain_graph.png)
+![A stylized network graph. Large nodes represent “planets” (broad domains), smaller orbiting nodes represent “moons” (contextual sub-domains), and the overall structure forms a “galaxy” of interconnected domains. This illustrates how specialized contexts (moons) attach to broader domains (planets) within a network (galaxy).](50gramx/whitepapers/blob/main/assets/images/domain_graph.png)
 *(Figure: A stylized network graph. Large nodes represent “planets” (broad domains), smaller orbiting nodes represent “moons” (contextual sub-domains), and the overall structure forms a “galaxy” of interconnected domains. This illustrates how specialized contexts (moons) attach to broader domains (planets) within a network (galaxy).)*
 
 ## Access Control Model (Open, Private, Permissioned Galaxies)
@@ -37,7 +37,7 @@ Planetary rings are special linking contexts that enable integration and “doma
 
 Rings also enable composite domains: multiple planets can share a ring that defines interactions or federations between their moons. For instance, a “Climate Data” ring might orbit both an “Environment” planet and an “Agriculture” planet, allowing data exchange under agreed conditions. This is akin to linking subnetworks: just as multichain bridges let assets/data move securely across blockchains, rings let contextual domains interoperate. In practice, a ring might be implemented via indexed pointers or smart contracts that map domain identifiers (e.g. collar IDs) across galaxies. Domain travel happens when a moon’s collar is registered through a ring to another planet: the user’s authority is checked (e.g. via keys on the collar), and a corresponding collar or access token is minted on the target side, enabling seamless access.
 
-![Saturn’s rings illustrate the concept of a planetary ring: a structured pathway encircling a planet. Analogously, our “rings” provide a controlled orbit for domain contexts, enabling moons to connect and travel between planets or galaxies.](https://github.com/50gramx/whitepapers/blob/main/assets/images/saturn_rings.png)
+![Saturn’s rings illustrate the concept of a planetary ring: a structured pathway encircling a planet. Analogously, our “rings” provide a controlled orbit for domain contexts, enabling moons to connect and travel between planets or galaxies.](50gramx/whitepapers/blob/main/assets/images/saturn_rings.png)
 *(Figure: Saturn’s rings illustrate the concept of a planetary ring: a structured pathway encircling a planet. Analogously, our “rings” provide a controlled orbit for domain contexts, enabling moons to connect and travel between planets or galaxies.)*
 
 ## Governance and Ownership via Ethos Domain Collars
